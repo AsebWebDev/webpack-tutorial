@@ -2,13 +2,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require("path")
 
 module.exports = {
-    mode: "development",
-    // devtool: "none",
     entry: "./src/index.js",
-    output: {
-        filename: "[name].[contenthash].js",
-        path: path.resolve(__dirname, "dist")
-    },
     module: {
       rules: [
         {
@@ -20,5 +14,4 @@ module.exports = {
     plugins: [new HtmlWebpackPlugin({
       template: './src/template.html'
     })],
-
 }
