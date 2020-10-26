@@ -20,7 +20,10 @@
   "homepage": "https://github.com/AsebWebDev/webpack-tutorial#readme",
   "devDependencies": {
     "bootstrap": "^4.5.3",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.4",
